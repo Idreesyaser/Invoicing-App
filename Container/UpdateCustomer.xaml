@@ -1,0 +1,23 @@
+﻿<Window x:Class="Harjoitustyön_kokeillu.päivitäAsiakas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitustyön_kokeillu"
+        mc:Ignorable="d"
+        Title="päivitäAsiakas" Height="300" Width="450">
+    <Grid>
+        <Label Content="Hae asiakkaan tiedot kirjoittamalla asiakkaan Id sitten paina hae painiketta" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="408"/>
+
+        <Label Content="Asiakkaan Id" HorizontalAlignment="Left" Margin="60,44,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="AsiakasId" Height="20"/>
+        <Label Content="Asiakkaan Nimi" HorizontalAlignment="Left" Margin="60,86,0,0" VerticalAlignment="Top" Height="28"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,86,0,0" TextWrapping="Wrap" Text="{Binding AsiakkaanNimi}" VerticalAlignment="Top" Width="120" x:Name="AsiakasNimi" Height="20"/>
+        <Label Content="Asiakkaan Osoite" HorizontalAlignment="Left" Margin="60,119,0,0" VerticalAlignment="Top" Height="30"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,124,0,0" TextWrapping="Wrap" Text="{Binding AsiakkaanOsoite}" VerticalAlignment="Top" Width="120" x:Name="AsiakasOsoite" Height="20"/>
+        <Button Content="Päivitä" HorizontalAlignment="Left" Margin="167,184,0,0" VerticalAlignment="Top" Height="35" Width="95" Click="UpdateClick"/>
+        <Button Content="Hae" HorizontalAlignment="Left" Margin="275,184,0,0" VerticalAlignment="Top" Height="35" Width="95" Click="SelecteClick"/>
+        <Button Content="Poista" HorizontalAlignment="Left" Margin="60,184,0,0" VerticalAlignment="Top" Height="35" Width="95" Click="DeleteCustomer"/>
+
+    </Grid>
+</Window>

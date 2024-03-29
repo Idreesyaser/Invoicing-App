@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4YC2aJsV6dKIptPZvopoWOE185nAk1vdo9uoMHyeYLxS0eyka+DNTOtQ3IzV5vX8EjuFLaNqalxVR0DiZfeDQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aadre\\source\\repos\\Harjoitustyön kokeillu\\Harjoitustyön kokeillu\\Laskutus.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aadre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\aadre\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512"
+  ],
+  "logs": []
+}

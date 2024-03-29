@@ -1,0 +1,40 @@
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.csproj.AssemblyReference.cache
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu_MarkupCompile.cache
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu_MarkupCompile.lref
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Harjoitustyön kokeillu.exe
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Harjoitustyön kokeillu.deps.json
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Harjoitustyön kokeillu.runtimeconfig.json
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Harjoitustyön kokeillu.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Harjoitustyön kokeillu.pdb
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.g.resources
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.AssemblyInfoInputs.cache
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.AssemblyInfo.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.csproj.CoreCompileInputs.cache
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.sourcelink.json
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\refint\Harjoitustyön kokeillu.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.pdb
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitustyön kokeillu.genruntimeconfig.cache
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\ref\Harjoitustyön kokeillu.dll
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\NewCustomer.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\NewCustomer.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\päivitäAsiakas.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\päivitäAsiakas.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Lasku.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Lasku.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\laskuNäkymä.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\laskuNäkymä.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\bin\Debug\net8.0-windows\Images\logo.png
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\kaikkiLaskut.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\kaikkiLaskut.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\NewProdect.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\NewProdect.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\UpdateProdect.g.cs
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\UpdateProdect.baml
+C:\Users\aadre\source\repos\Harjoitustyön kokeillu\Harjoitustyön kokeillu\obj\Debug\net8.0-windows\Harjoitu.73323AD2.Up2Date

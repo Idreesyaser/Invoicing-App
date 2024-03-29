@@ -1,0 +1,50 @@
+﻿<Window x:Class="Harjoitustyön_kokeillu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitustyön_kokeillu"
+        mc:Ignorable="d"
+        Title="lasku sovellus" Height="570" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="55.04"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="300">
+            <Image x:Name="Build_Action" Source="/logo.png" Height="100" Width="300"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,5" Width="210">
+            <GroupBox Header="Asiakkaan Hallinta">
+                <StackPanel>
+                    <Button Content="Lisää asiakas" Margin="5" Padding="10,5" Click="AddNewCustomer"/>
+                    <Button Content="Päivitä asiakas" Margin="5" Padding="10,5" Click="UpdateCustomer"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Tuotteen Hallinta">
+                <StackPanel>
+                    <Button Content="lisää tuote" Margin="5" Padding="10,5" Click="addProdect"/>
+                    <Button Content="Päivitä tuote" Margin="5" Padding="10, 5" Click="UpdateProdect"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Laskun Hallinta">
+                <StackPanel>
+                    <Button Content="Tee Lasku" Margin="5" Padding="10,5" Click="makeBill"/>
+                    <TextBox Name="AsiakasId" TextWrapping="Wrap" Text="Asiakkaan ID" Margin="5" Padding="10,3" Width="200"/>
+                    <Button Content="Hae tietyn  asiakkaan laskut" Margin="5" Padding="10,5" Click="showBill"/>
+                    <Button Content="hea kaikki tehdyt laskut" Padding="10,5" Margin="5"  Click="ShowAllBills" />
+                </StackPanel>
+            </GroupBox>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="42" Width="270">
+            <TextBlock Text="Tarjoamme helpon ja nopean tavan hallita laskujasi." Margin="0,0,0,10"/>
+            <TextBlock Text="© 2024 Idrees" FontStyle="Italic"/>
+        </StackPanel>
+        <Button Content="Käyttö ohjeet" HorizontalAlignment="Left" Margin="492,0,0,0" VerticalAlignment="Center" Width="88" Height="28" BorderBrush="#FF707070" FontWeight="Bold" Click="käyttöOhjee"/>
+    </Grid>
+</Window>

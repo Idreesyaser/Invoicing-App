@@ -1,0 +1,4 @@
+﻿yhteys: 
+Server = 127.0.0.1 
+User ID = opiskelija 
+Pwd = opiskelija1 

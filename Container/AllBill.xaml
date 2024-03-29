@@ -1,0 +1,85 @@
+﻿<Window x:Class="Harjoitustyön_kokeillu.kaikkiLaskut"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitustyön_kokeillu"
+        mc:Ignorable="d"
+        Title="kaikkiLaskut" Height="460" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <GroupBox Header="Laskun tiedot" Name="LaskutListBox" Grid.Row="0" Margin="10,34,10,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+
+
+
+
+
+                    </Grid.RowDefinitions>
+
+                    <Label Content="Laskun numero:"/>
+                    <TextBox Grid.Column="1" Grid.Row="0" x:Name="LaskunNumeroTextBox" Text="{Binding LaskuNumero}"/>
+
+                    <Label Content="Laskuttajan nimi:" Grid.Row="1"/>
+                    <TextBox Grid.Column="1" Grid.Row="1" x:Name="LaskuttajanNimiTextBox" Text="{Binding laskuttaja}" IsReadOnly="True"/>
+
+                    <Label Content="Laskuttajan Osoite:" Grid.Row="2"/>
+                    <TextBox Grid.Column="1" Grid.Row="2" x:Name="LaskuttajanOsoiteTextBox" Text="{Binding laskuttajanOsoite}" IsReadOnly="True"/>
+
+                    <Label Content="Laskun päivämäärä:" Grid.Row="3"/>
+                    <DatePicker Grid.Column="1" Grid.Row="3" x:Name="LaskunPvmDatePicker" SelectedDate="{Binding Paivays}"/>
+
+                    <Label Content="Eräpäivä:" Grid.Row="4"/>
+                    <DatePicker Grid.Column="1" Grid.Row="4" x:Name="EraPvmDatePicker" SelectedDate="{Binding Erapaiva}"/>
+
+                    <Label Content="Asikkaan Id:" Grid.Row="5"/>
+                    <TextBox Grid.Column="1" Grid.Row="5" x:Name="AsiakasId" Text="{Binding AsiakkaanId}"/>
+
+                    <Label Content="Asiakkaan nimi" Grid.Row="6"/>
+                    <TextBox Grid.Column="1" Grid.Row="6" x:Name="AsiakasNimi" Text="{Binding AsiakkaanNimi}"/>
+
+                    <Label Content="Lisätiedot:" Grid.Row="7"/>
+                    <TextBox Grid.Column="1" Grid.Row="7" x:Name="Lisatiedot" Text="{Binding lisaatiedot}"/>
+
+                </Grid>
+            </GroupBox>
+        </Grid>
+
+        <DataGrid AutoGenerateColumns="False" Name="laskurivi" ItemsSource="{Binding laskurivit}" Margin="0,294,0,30" Grid.RowSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Width="40" Header="Id" Binding="{Binding LaskuriviId}"></DataGridTextColumn>
+                <DataGridTextColumn Width="45" Header="Määrä" Binding="{Binding maara}"></DataGridTextColumn>
+                <DataGridComboBoxColumn x:Name="comTuoteColumn" Width="*" Header="Tuote / Yksikko / Yksikkohinta" DisplayMemberPath="Nimi" SelectedValuePath="tuoteId" SelectedValueBinding="{Binding TuoteId}"></DataGridComboBoxColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <ToolBar HorizontalAlignment="Center" Height="24" VerticalAlignment="Top" Width="800">
+            <Button Content="&lt;" Click="laskee"/>
+            <Separator/>
+            <Button Content="&gt;" Click="kasvaa"/>
+
+        </ToolBar>
+        <TextBox HorizontalAlignment="Left" Margin="570,116,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding total}" Name="totalMount" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Yhteensä : " HorizontalAlignment="Left" Margin="487,109,0,0" Grid.Row="1" FontWeight="Bold" FontSize="15"/>
+
+    </Grid>
+</Window>
